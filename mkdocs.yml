@@ -1,8 +1,13 @@
 site_name: Storia delle Pubblicazioni Fumetti in Italia
 nav:
   - Home: index.md
-  - Marvel Comics: marvel.md
+  - Marvel Comics: 
+     - 1985: marvel/1985.md
+     - 1986: marvel/1986.md
   - DC Comics: dc.md
   - Image Comics: image.md
 theme: material
+extra_css:
+  - stylesheets/custom.css
+
 
