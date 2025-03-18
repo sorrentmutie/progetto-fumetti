@@ -1,0 +1,25 @@
+.md-typeset__table {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-collapse: collapse;
+}
+
+.md-typeset__table th, .md-typeset__table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.md-typeset__table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .md-typeset__table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
