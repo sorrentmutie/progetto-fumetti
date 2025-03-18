@@ -1,0 +1,8 @@
+site_name: Storia delle Pubblicazioni Fumetti in Italia
+nav:
+  - Home: index.md
+  - Marvel Comics: marvel.md
+  - DC Comics: dc.md
+  - Image Comics: image.md
+theme: material
+
